@@ -10,7 +10,7 @@ const contactButton = document.getElementById('contact');
 
 const mainContent = document.getElementById('content');
 
-mainContent.appendChild(homePage());
+mainContent.appendChild(menuPage());
 
 const appendPage = (e) => {
   const id = e.target.id;

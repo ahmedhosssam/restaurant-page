@@ -70,3 +70,36 @@ header > div > button {
   width: 400px;
   border-radius: 30px;
 }
+
+.menu-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.menu-item {
+  background-color: #374151;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 15px;
+  width: 300px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #4b5563;
+}
+
+.menu-item img {
+  width: 100px;
+}
+
+.menu-item p {
+  text-align: center;
+  margin: 0;
+}
