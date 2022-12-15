@@ -1,6 +1,6 @@
 export default function homePage() {
   const testDiv = document.createElement('p');
-  testDiv.textContent = 'H O M E !';
+  testDiv.textContent = 'C O N T A C T !';
 
   return testDiv;
 }
