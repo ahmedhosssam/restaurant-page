@@ -1,3 +1,9 @@
+import Burger1 from '../assets/Burger1.png';
+import pizza from '../assets/pizza.png';
+import fried from '../assets/fried.png';
+import can from '../assets/Can.png';
+import fries from '../assets/fries.png';
+
 export default function menuPage() {
   const menuPage = document.createElement('div');
   menuPage.classList.add('menu-page');
@@ -24,26 +30,26 @@ export default function menuPage() {
   };
 
   createItem(
-    '../assets/Burger1.png',
+    Burger1,
     'Burger',
     'A flame-grilled beef patty with juicy tomatoes, crisp lettuce, creamy mayonnaise, ketchup, crunchy pickles, and sliced white onions on a toasted sesame seed bun'
   );
 
   createItem(
-    '../assets/pizza.png',
+    pizza,
     'Pizza',
     'Tomato sauce, Mozarella, Tomato, Homemade sausage, Garlic, Basil'
   );
 
   createItem(
-    '../assets/fried.png',
+    fried,
     'Freid Chicken',
     'When talking about chicken recipes, it’s hard to deny that there is one dish in particular that stands high above the rest, casting its crispy shadow on the lesser foods over which it rules. That dish, of course, is fried chicken.'
   );
 
-  createItem('../assets/Can.png', 'Pepsi', 'An Pepsi can with ice!');
+  createItem(can, 'Pepsi', 'An Pepsi can with ice!');
 
-  createItem('../assets/fries.png', 'Fries', 'You know it!');
+  createItem(fries, 'Fries', 'You know it!');
 
   return menuPage;
 }

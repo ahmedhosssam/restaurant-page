@@ -1,4 +1,5 @@
 import { add } from 'lodash';
+import mapImg from '../assets/map.png';
 
 export default function contactPage() {
   const contactPage = document.createElement('div');
@@ -11,7 +12,7 @@ export default function contactPage() {
   address.textContent = '🏠 Zagazig, Egypt';
 
   const map = document.createElement('img');
-  map.src = '../assets/map.png';
+  map.src = mapImg;
 
   contactPage.appendChild(phoneNumber);
   contactPage.appendChild(address);
