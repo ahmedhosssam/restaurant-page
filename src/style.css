@@ -42,6 +42,10 @@ header > div > button {
   transition: 0.3s;
 }
 
+header > div > button:hover {
+  color: #bec1c7;
+}
+
 #content {
   display: flex;
   flex-direction: column;
