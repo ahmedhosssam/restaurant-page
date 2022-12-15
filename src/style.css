@@ -107,3 +107,25 @@ header > div > button:hover {
   text-align: center;
   margin: 0;
 }
+
+.contact-page {
+  width: 700px;
+  background-color: #374151;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-page p {
+  font-size: 120%;
+  margin: 0;
+  width: fit-content;
+}
+
+.contact-page img {
+  width: 90%;
+}
