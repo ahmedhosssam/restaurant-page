@@ -1,6 +1,7 @@
-export default function homePage() {
-  const testDiv = document.createElement('p');
-  testDiv.textContent = 'M E N U !';
+export default function menuPage() {
+  const menuPage = document.createElement('div');
+  menuPage.classList.add('menu-page');
+  menuPage.innerText = 'M E N U !';
 
-  return testDiv;
+  return menuPage;
 }

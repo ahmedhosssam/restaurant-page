@@ -1,6 +1,7 @@
-export default function homePage() {
-  const testDiv = document.createElement('p');
-  testDiv.textContent = 'C O N T A C T !';
+export default function contactPage() {
+  const contactPage = document.createElement('div');
+  contactPage.classList.add('contact-page');
+  contactPage.innerText = 'C O N T A C T !';
 
-  return testDiv;
+  return contactPage;
 }
